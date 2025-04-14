@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+   <style>
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.sever {
+  width: calc(
+    25% - 20px
+  ); 
+  height: 50px;
+  background-color: blue;
+  color: rgb(207, 98, 98);
+  text-align: center;
+  line-height: 50px;
+  border-radius: 4px;
+}
+
+.larger {
+  width: calc(50% - 20px);
+}
+  </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="sever">1</div>
+      <div class="sever">2</div>
+      <div class="sever">3</div>
+      <div class="sever">4</div>
+      <div class="sever larger">5</div>
+      <div class="sever">6</div>
+      <div class="sever">7</div>
+    </div>
+  </body>
